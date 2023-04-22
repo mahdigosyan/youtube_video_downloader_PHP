@@ -264,3 +264,62 @@
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  .main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .text_info table tbody tr th {
+    font-size: 14px;
+  }
+
+  #download_btn {
+    font-size: 8px;
+  }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 436px) {
+  .color-palette {
+    max-width: 90%;
+    min-width: 90%;
+  }
+
+  .color-palette .theme-color {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .color-palette {
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    bottom: 0;
+    padding: 0;
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 16px;
+    text-align: center;
+    /*to remove*/
+    top: auto;
+    transform: translateX(-50%);
+  }
+
+  .color-palette .theme-color {
+    margin-top: 10px;
+  }
+
+  .color-palette .theme-color:not(:last-child) {
+    margin-right: 10px;
+  }
+}
