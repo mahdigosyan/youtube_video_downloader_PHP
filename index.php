@@ -109,7 +109,7 @@ if (isset($_POST['submit'])) {
             if (@$formats[0]->url == "") { ?>
               <div class="instruction_box">
                 <label><i class='bx bx-video-off'></i></label>
-                <h3>Unsupported.</h3>
+                <h3>Unsupported !.</h3>
                 <p>This video is currently unsupported.</p>
               </div>
 
