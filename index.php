@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 
   <!-- favicon -->
   <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
-  <title>Youtube Video Downloader PHP</title>
+  <title>Youtube Video Downloader (PHP)</title>
 </head>
 
 <body>
